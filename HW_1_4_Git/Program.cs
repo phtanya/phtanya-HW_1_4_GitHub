@@ -8,12 +8,13 @@ namespace HW_1_4_Git
 
         public static void Main(string[] args)
         {
-            Console.Write("Enter a number: ");
+            Console.Write("Enter random number: ");
             int numb = int.Parse(Console.ReadLine());
 
             int[] numbers = new int[numb];
 
             // Заполняем массив рандомными числами
+            Console.WriteLine("Array with random numbers: ");
             Random nums = new Random();
             for (int i = 0; i < numb; i++)
             {
